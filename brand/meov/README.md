@@ -63,10 +63,18 @@ Arquivos SVG originais (CorelDRAW 2020), 91,44 × 91,44 mm, com fundo aplicado.
 
 Fundos JPG 1920 × 1080 (16:9) com degradê de preto uva passa para cinza tempestade e granulado.
 
+**Fundos base**
+
 | Arquivo | Descrição |
 |---|---|
-| `meov-textura-degrade-01.jpg` | Degradê suave, sem elementos |
-| `meov-textura-degrade-02-ondas.jpg` | Degradê com a silhueta das ondas desfocada |
-| `meov-textura-onda-rosa-choque.jpg` | Degradê + onda do pattern em rosa choque |
-| `meov-textura-onda-verde-vibrante.jpg` | Degradê + onda do pattern em verde vibrante |
-| `meov-textura-onda-azul-fluorescente.jpg` | Degradê + onda do pattern em azul fluorescente |
+| `meov-textura-degrade-01.jpg` | Fundo 01: degradê suave, sem elementos |
+| `meov-textura-degrade-02-ondas.jpg` | Fundo 02: degradê com a silhueta das ondas desfocada |
+
+**Onda do pattern aplicada sobre os fundos**
+
+| Cor da onda | Sobre o fundo 01 | Sobre o fundo 02 |
+|---|---|---|
+| Rosa choque | `meov-textura-onda-rosa-choque-fundo-01.jpg` | `meov-textura-onda-rosa-choque-fundo-02.jpg` |
+| Verde vibrante | `meov-textura-onda-verde-vibrante-fundo-01.jpg` | `meov-textura-onda-verde-vibrante-fundo-02.jpg` |
+| Azul fluorescente | `meov-textura-onda-azul-fluorescente-fundo-01.jpg` | `meov-textura-onda-azul-fluorescente-fundo-02.jpg` |
+| Branco | `meov-textura-onda-branco-fundo-01.jpg` | `meov-textura-onda-branco-fundo-02.jpg` |
