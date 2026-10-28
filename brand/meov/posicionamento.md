@@ -54,24 +54,22 @@ Empresários e profissionais especialistas que já faturam acima de R$ 30 mil/m�
 
 | Campo | Conteúdo |
 |---|---|
-| Nome | `Meov | Movimento e Voz` *(em validação)* |
-| Bio | ver abaixo (125 de 150 caracteres) |
+| Nome | `Meov | Marca Pessoal` |
+| Bio | mantra + chamada (148 de 150 caracteres) |
 | Link | meov.com.br |
 | Botão de contato | WhatsApp |
 | Localização | Grande São Paulo |
 
 ```
-marca pessoal para especialistas.
-estratégia, audiovisual e gestão das redes.
-grande são paulo
-↓ fale com a gente no whatsapp
+ajudamos especialistas a colocar sua voz no digital: estratégia, audiovisual e gestão das redes, com acolhimento do começo ao fim.
+↓ fala com a Meov
 ```
 
 ### LinkedIn · página da empresa
 
 | Campo | Conteúdo |
 |---|---|
-| Slogan | Ajudamos especialistas a colocar sua voz no mundo digital, com estratégia, audiovisual e gestão das redes. *(versão curta do mantra, 106 de 120 caracteres)* |
+| Slogan | Ajudamos especialistas a colocar sua voz no mundo digital, com estratégia, audiovisual, gestão das redes e acolhimento. *(versão curta do mantra, 119 de 120 caracteres)* |
 | Setor | Lista fixa do LinkedIn: escolher a opção mais próxima de marketing. "Marketing Pessoal" aparece no slogan e no Sobre. |
 | Localização | Grande São Paulo |
 | Site | meov.com.br |
