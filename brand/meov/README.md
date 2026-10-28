@@ -8,6 +8,7 @@ brand/meov/
 │   ├── simbolo/    o "M" da Meov
 │   └── logotipo/   a palavra "meov" completa
 ├── pattern/        grafismo de ondas
+├── texturas/       fundos com degradê e granulado
 └── paleta/         paleta oficial de cores
 ```
 
@@ -57,3 +58,15 @@ Arquivos SVG originais (CorelDRAW 2020), 91,44 × 91,44 mm, com fundo aplicado.
 | Arquivo | Descrição |
 |---|---|
 | `meov-pattern-onda-preto.svg` | Faixa de ondas contínuas derivada do símbolo, em preto, sem fundo. 162,56 × 91,44 mm (16:9). |
+
+## Texturas (`texturas/`)
+
+Fundos JPG 1920 × 1080 (16:9) com degradê de preto uva passa para cinza tempestade e granulado.
+
+| Arquivo | Descrição |
+|---|---|
+| `meov-textura-degrade-01.jpg` | Degradê suave, sem elementos |
+| `meov-textura-degrade-02-ondas.jpg` | Degradê com a silhueta das ondas desfocada |
+| `meov-textura-onda-rosa-choque.jpg` | Degradê + onda do pattern em rosa choque |
+| `meov-textura-onda-verde-vibrante.jpg` | Degradê + onda do pattern em verde vibrante |
+| `meov-textura-onda-azul-fluorescente.jpg` | Degradê + onda do pattern em azul fluorescente |
