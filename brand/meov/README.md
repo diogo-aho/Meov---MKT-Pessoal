@@ -2,8 +2,11 @@
 
 Materiais de identidade visual da Meov.
 
+A referência oficial é a apresentação completa da identidade: `apresentacao/meov-identidade-visual-r02.pdf` (KM Designer, 2023 · Estratégia & Identidade Visual · 48 páginas).
+
 ```
 brand/meov/
+├── apresentacao/   apresentação completa da identidade visual (PDF)
 ├── logo/
 │   ├── simbolo/    o "M" da Meov
 │   └── logotipo/   a palavra "meov" completa
@@ -12,6 +15,40 @@ brand/meov/
 ├── tipografia/     fonte oficial
 └── paleta/         paleta oficial de cores
 ```
+
+## Resumo da apresentação
+
+**Conceito do símbolo:** `M + V + ∿`. O símbolo une o M e o V de "meov" a uma linha de batimento cardíaco, a ideia de experiências que fazem o coração pulsar. Na apresentação, o símbolo aparece acompanhado da palavra "experiências".
+
+**Frases que aparecem na identidade**
+- "Um portal para experiências audiovisuais indescritíveis."
+- "Conexão através de experiências audiovisuais." (bio e site)
+- "Filmes que tocam na alma."
+- "A chave para um mundo de sensações inexploradas."
+- "Inspirando um filme de cada vez."
+
+**Estrutura da apresentação**
+
+| Páginas | Seção | Conteúdo |
+|---|---|---|
+| 1–3 | Abertura | Capa e frase de apresentação |
+| 4–7 | Cores | Paleta e os dois fundos com degradê |
+| 8–9 | Tipografia | Chillax para textos |
+| 10–11 | Logotipo | Malha de construção do "meov" |
+| 12–14 | Símbolo | Malha de construção e conceito M + V + batimento |
+| 15–20 | Resultado | Logotipo sobre fundos e logotipo com símbolo (marcados 100% e 25%) |
+| 21–47 | Universo visual | Instagram, stories, site, LinkedIn, cartaz, fita com pattern, papelaria, cartões, proposta comercial, ecobags, mídia indoor, moletons, gorros, boné, óculos, garrafa, camisetas |
+| 48 | Encerramento | Agradecimento |
+
+**Padrões de aplicação observados**
+- Fundo predominante: preto uva passa, ou o degradê preto uva passa → cinza tempestade com granulado.
+- Logotipo em verde vibrante ou branco sobre fundo escuro; em preto uva passa sobre verde vibrante ou rosa choque.
+- Rosa choque e verde vibrante aparecem como cores de destaque e de superfícies inteiras (cartões, camisetas, ecobags).
+- O pattern de ondas é usado em preto sobre cor (fitas, ecobags) ou como onda gigante recortada no fundo (cartaz, capa do LinkedIn).
+- Textos curtos, em minúsculas, alinhados à esquerda.
+- O "®" acompanha o logotipo e o símbolo.
+
+> Na apresentação, a Meov aparece posicionada como **produtora de vídeos** ("experiências audiovisuais", São Paulo). O @ do Instagram aparece como `meovelab` no perfil e `meovlab` no link da bio.
 
 ## Paleta de cores (`paleta/`)
 
