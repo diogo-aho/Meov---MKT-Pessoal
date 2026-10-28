@@ -26,8 +26,10 @@ O Brandbook só tem valor se virar prática. O Plano Semestral organiza os 6 mes
 | Mensal | **Dia de gravação** (foto e vídeo para o mês) | Meov + cliente |
 | Mensal | Calendário editorial do mês seguinte | Meov propõe, cliente aprova |
 | Semanal | Aprovação de conteúdos | Cliente (tempo máximo combinado) |
-| Semanal | Publicação, legendas e programação | Meov |
-| Diário | Responder comentários e DMs; comentários no LinkedIn | Cliente, com apoio da Meov |
+| Semanal | Roteiros, design, legendas, publicação e programação | Meov (gestão das redes) |
+| Diário | Monitorar comentários e DMs, triar e sinalizar o que pede resposta do cliente | Meov (gestão das redes) |
+| Diário | Responder o que é pessoal ou técnico; comentários no LinkedIn | Cliente, com apoio da Meov |
+| Mensal | Relatório de resultados por camada de métrica | Meov (gestão das redes) |
 | Contínuo | Enviar perguntas e situações reais para o banco de pautas | Cliente |
 
 ## Métricas

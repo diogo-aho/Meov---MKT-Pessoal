@@ -2,7 +2,15 @@
 
 Base de conhecimento do **Método Meov: da Raiz à Voz**, a metodologia que a Meov usa para construir a marca pessoal de cada cliente e transformá-la em um **Brandbook** que guia os 6 meses seguintes de atuação em conjunto.
 
-> A Meov não é uma agência de marketing. Somos um time que apoia técnica e emocionalmente quem decide colocar a própria voz no mundo.
+> A Meov não é uma agência de marketing. Somos um time que apoia técnica e emocionalmente quem decide colocar a própria voz no mundo: da estratégia à câmera e à gestão das redes.
+
+## O que a Meov entrega
+
+- **Estratégia:** o Método Meov, com imersão presencial, Brandbook e plano semestral.
+- **Audiovisual:** direção de imagem, sessão de foto e vídeo e dia de gravação mensal.
+- **Gestão das redes:** Instagram, LinkedIn e Site/LP, com calendário, roteiros, design, publicação, apoio na interação e relatórios.
+
+Instagram: [@meov.creators](https://www.instagram.com/meov.creators/)
 
 ## Para quem é
 
@@ -18,6 +26,7 @@ Empresários e profissionais especialistas que já faturam acima de R$ 30 mil/m�
 | [`docs/03-glossario.md`](docs/03-glossario.md) | Nomenclatura do método |
 | [`docs/capitulos/`](docs/capitulos/) | Um arquivo por capítulo: objetivo, perguntas de condução, campos do Brandbook, exemplo e cuidados |
 | [`templates/ficha-do-cliente.md`](templates/ficha-do-cliente.md) | Ficha que é preenchida para cada cliente e alimenta o Brandbook |
+| [`brand/meov/`](brand/meov/) | Identidade visual e posicionamento da própria Meov |
 
 ## Caso-exemplo
 

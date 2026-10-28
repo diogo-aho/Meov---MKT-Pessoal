@@ -2,7 +2,7 @@
 
 O entregável padrão do método. Cada cliente recebe o seu, personalizado no conteúdo e na estética, mas sempre com a mesma estrutura.
 
-O Brandbook não é um documento para ficar na gaveta. É o **guia de bolso da marca** e o **contrato de trabalho** dos próximos 6 meses entre o cliente e a Meov.
+O Brandbook não é um documento para ficar na gaveta. É o **guia de bolso da marca** e o **contrato de trabalho** dos próximos 6 meses entre o cliente e a Meov, incluindo a produção audiovisual e a gestão das redes.
 
 ## Estrutura
 

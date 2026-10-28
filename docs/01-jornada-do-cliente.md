@@ -67,6 +67,13 @@ Checklist padrão do que o cliente envia depois:
 
 Os 6 meses seguem o [Plano Semestral](capitulos/12-o-plano-semestral.md): fundação dos canais, ritmo, autoridade e colheita, com dia de gravação mensal e revisões periódicas.
 
+Durante todo o ciclo, a Meov faz a **gestão das redes** do cliente (Instagram, LinkedIn e Site/LP):
+- calendário editorial mensal;
+- roteiros, legendas e design;
+- gravação, edição e publicação;
+- monitoramento de comentários e DMs, com apoio ao cliente nas respostas;
+- relatório mensal e revisões trimestral e semestral.
+
 ## 8. Revisão e novo ciclo
 
 No 6º mês: revisão completa contra a linha de base do Espelho, atualização do Brandbook e proposta do próximo ciclo.

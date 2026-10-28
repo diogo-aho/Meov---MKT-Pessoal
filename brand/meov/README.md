@@ -6,6 +6,7 @@ A referência oficial é a apresentação completa da identidade: `apresentacao/
 
 ```
 brand/meov/
+├── posicionamento.md   posicionamento atual da Meov
 ├── apresentacao/   apresentação completa da identidade visual (PDF)
 ├── logo/
 │   ├── simbolo/    o "M" da Meov
@@ -48,7 +49,8 @@ brand/meov/
 - Textos curtos, em minúsculas, alinhados à esquerda.
 - O "®" acompanha o logotipo e o símbolo.
 
-> Na apresentação, a Meov aparece posicionada como **produtora de vídeos** ("experiências audiovisuais", São Paulo). O @ do Instagram aparece como `meovelab` no perfil e `meovlab` no link da bio.
+> A apresentação posiciona a Meov como **produtora de vídeos**. Esse posicionamento foi atualizado: ver [`posicionamento.md`](posicionamento.md).
+> O Instagram oficial é **@meov.creators** (os mockups mostram `meovelab` e `meovlab`, que não valem mais).
 
 ## Paleta de cores (`paleta/`)
 
