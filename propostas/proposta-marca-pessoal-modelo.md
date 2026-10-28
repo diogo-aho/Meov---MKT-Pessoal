@@ -1,6 +1,6 @@
 # Proposta · Marca Pessoal
 
-**Para:** [NOME DO CLIENTE]
+**Para:** Fernando Lohmann
 **De:** Meov · [@meov.creators](https://www.instagram.com/meov.creators/) · meov.com.br
 **Data:** [DATA]
 
@@ -31,7 +31,7 @@ Esta proposta tem duas partes:
 | 4 | **Reformulação do LinkedIn** | Headline · Sobre · experiências escritas como conquistas · banner · URL personalizada · seção "Em destaque" · competências · modo criador |
 | 5 | **Site/LP** | Página única com sua apresentação, história, como você ajuda, provas, chamada para o WhatsApp e links para todas as suas redes e páginas |
 
-**Investimento total da implantação: R$ 9.000**
+**Investimento total da implantação: R$ 12.000**
 
 Também inclui:
 - Fluxo de aprovação de conteúdos combinado entre você e a Meov.
@@ -52,7 +52,7 @@ Também inclui:
 | Relatório e reunião mensal | ✓ |
 | Revisões de rota no 3º e no 6º mês | ✓ |
 
-**Investimento mensal:** R$ 10.000
+**Investimento mensal:** R$ 12.000
 
 **Condição especial de boas-vindas:** nos 3 primeiros meses, a gravação é **semanal** (4 encontros por mês), sem custo adicional.
 
@@ -66,11 +66,11 @@ As quantidades são **mínimos por mês**. Assim feriados e semanas de agenda di
 
 | Mês | Mensalidade | Parcela da implantação | Total do mês |
 |---|---|---|---|
-| 1 | R$ 10.000 | R$ 3.000 | R$ 13.000 |
-| 2 | R$ 10.000 | R$ 3.000 | R$ 13.000 |
-| 3 | R$ 10.000 | R$ 3.000 | R$ 13.000 |
-| 4 a 6 | R$ 10.000 | — | R$ 10.000 |
-| **Total do ciclo** | **R$ 60.000** | **R$ 9.000** | **R$ 69.000** |
+| 1 | R$ 12.000 | R$ 4.000 | R$ 16.000 |
+| 2 | R$ 12.000 | R$ 4.000 | R$ 16.000 |
+| 3 | R$ 12.000 | R$ 4.000 | R$ 16.000 |
+| 4 a 6 | R$ 12.000 | — | R$ 12.000 |
+| **Total do ciclo** | **R$ 72.000** | **R$ 12.000** | **R$ 84.000** |
 
 - **Período mínimo:** 6 meses, o ciclo completo do Método Meov.
 

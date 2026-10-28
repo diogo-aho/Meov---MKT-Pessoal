@@ -1,6 +1,10 @@
 # Propostas
 
-- `proposta-marca-pessoal-modelo.md`: modelo base, preenchido com as condições do primeiro cliente.
+- `proposta-marca-pessoal-modelo.md`: texto base da proposta, com as condições do primeiro cliente.
+- `fernando-lohmann/`: apresentação enviada ao Fernando Lohmann (`.pptx` editável e `.pdf` para envio).
+- `gerador/build-proposta.js`: script que gera a apresentação (pptxgenjs) a partir dos materiais de `brand/meov/`.
+
+> A apresentação usa a fonte **Chillax**. Para editar o `.pptx` com a aparência correta, instale a Chillax (gratuita na Fontshare). Para enviar ao cliente, prefira o **PDF**, que já leva a fonte embutida.
 
 ## Antes de montar cada nova proposta, perguntar
 
@@ -18,8 +22,9 @@ As condições abaixo foram definidas só para o primeiro cliente. Em toda nova 
 
 | Item | Condição |
 |---|---|
-| Implantação | R$ 9.000, dividida nas 3 primeiras mensalidades (R$ 3.000/mês) |
-| Mensalidade | R$ 10.000 |
+| Cliente | Fernando Lohmann |
+| Implantação | R$ 12.000, dividida nas 3 primeiras mensalidades (R$ 4.000/mês) |
+| Mensalidade | R$ 12.000 |
 | Gravação | Quinzenal; semanal nos 3 primeiros meses como bônus |
 | Mínimos por mês | 12 reels, 8 carrosséis, 4 posts de texto no LinkedIn |
 | Fidelidade | 6 meses |
