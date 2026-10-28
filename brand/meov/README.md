@@ -9,6 +9,7 @@ brand/meov/
 │   └── logotipo/   a palavra "meov" completa
 ├── pattern/        grafismo de ondas
 ├── texturas/       fundos com degradê e granulado
+├── tipografia/     fonte oficial
 └── paleta/         paleta oficial de cores
 ```
 
@@ -26,6 +27,18 @@ brand/meov/
 Referência visual: `paleta/meov-paleta-de-cores.png`.
 
 > Alguns arquivos de logo usam preto puro (`#000000`), que não está na paleta oficial.
+
+## Tipografia (`tipografia/`)
+
+| Uso | Fonte |
+|---|---|
+| Textos | **Chillax** |
+
+- Designer: Manuel Désormeaux (Indian Type Foundry).
+- Distribuição gratuita pela [Fontshare](https://www.fontshare.com/fonts/chillax), licença ITF Free Font License: uso pessoal e comercial liberado.
+- Pesos: Extralight, Light, Regular, Medium, Semibold, Bold (também em versão variável).
+- Uso na web: `https://api.fontshare.com/v2/css?f[]=chillax@400,500,600,700&display=swap`
+- Referência visual: `tipografia/meov-tipografia-chillax.png`.
 
 ## Logo (`logo/`)
 
