@@ -49,7 +49,7 @@ Checklist padrão do que o cliente envia depois:
 - [ ] Logo, materiais e site atuais, se existirem
 - [ ] Acessos aos perfis (Instagram, LinkedIn, domínio e site)
 - [ ] Respostas de percepção externa que chegaram depois (cap. 0)
-- [ ] Disponibilidade de agenda para o dia de gravação mensal (cap. 12)
+- [ ] Disponibilidade de agenda para os dias de gravação (semanal, quinzenal ou mensal, conforme o plano) (cap. 12)
 
 ## 5. Síntese e Brandbook (Meov)
 
@@ -65,14 +65,13 @@ Checklist padrão do que o cliente envia depois:
 
 ## 7. Execução semestral
 
-Os 6 meses seguem o [Plano Semestral](capitulos/12-o-plano-semestral.md): fundação dos canais, ritmo, autoridade e colheita, com dia de gravação mensal e revisões periódicas.
+Os 6 meses seguem o [Plano Semestral](capitulos/12-o-plano-semestral.md): fundação dos canais, ritmo, autoridade e colheita, com dias de gravação (semanais, quinzenais ou mensais, conforme o plano) e revisões periódicas.
 
 Durante todo o ciclo, a Meov faz a **gestão das redes** do cliente (Instagram, LinkedIn e Site/LP):
-- calendário editorial mensal;
+- calendário editorial;
 - roteiros, legendas e design;
 - gravação, edição e publicação;
-- monitoramento de comentários e DMs, com apoio ao cliente nas respostas;
-- relatório mensal e revisões trimestral e semestral.
+- relatórios.
 
 ## 8. Revisão e novo ciclo
 

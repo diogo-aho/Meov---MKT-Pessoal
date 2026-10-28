@@ -6,9 +6,9 @@ Base de conhecimento do **Método Meov: da Raiz à Voz**, a metodologia que a Me
 
 ## O que a Meov entrega
 
-- **Estratégia:** o Método Meov, com imersão presencial, Brandbook e plano semestral.
-- **Audiovisual:** direção de imagem, sessão de foto e vídeo e dia de gravação mensal.
-- **Gestão das redes:** Instagram, LinkedIn e Site/LP, com calendário, roteiros, design, publicação, apoio na interação e relatórios.
+- **Estratégia:** o Método Meov, com imersão presencial, Brandbook e plano semestral ou anual.
+- **Audiovisual:** direção de imagem, foto e vídeo, dia de gravação semanal, quinzenal ou mensal, e edição.
+- **Gestão das redes:** Instagram, LinkedIn e Site/LP, com calendário, roteiros, legendas, design, publicação e relatórios.
 
 Instagram: [@meov.creators](https://www.instagram.com/meov.creators/)
 

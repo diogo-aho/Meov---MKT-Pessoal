@@ -28,6 +28,6 @@
 | **Chamada principal** | A ação que a marca pede para a tribo, repetida em todos os canais. |
 | **Territórios** | Os 3 grandes temas sobre os quais o cliente fala com constância. |
 | **Pautas-semente** | Primeiras ideias concretas de conteúdo dentro de cada território. |
-| **Gestão das redes** | Operação contínua dos canais do cliente pela Meov: calendário, roteiros, design, publicação, monitoramento e relatórios. |
-| **Dia de gravação** | Encontro mensal de produção audiovisual Meov + cliente. |
+| **Gestão das redes** | Operação contínua dos canais do cliente pela Meov: calendário, roteiros, legendas, design, publicação e relatórios. |
+| **Dia de gravação** | Encontro de produção audiovisual Meov + cliente, com frequência semanal, quinzenal ou mensal, conforme o plano. |
 | **Ciclo** | Um semestre de execução, que termina em revisão e atualização do Brandbook. |
