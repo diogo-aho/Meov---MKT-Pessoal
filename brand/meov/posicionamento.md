@@ -87,9 +87,7 @@ Não somos uma agência de marketing. Somos um time que apoia técnica e emocion
 • Audiovisual: direção de imagem, foto, vídeo e edição, com dias de gravação semanais, quinzenais ou mensais.
 • Gestão das redes: Instagram, LinkedIn e Site/LP, com calendário, roteiros, legendas, design, publicação e relatórios.
 
-Estratégia antes de estética. Verdade como estratégia. Constância no lugar de inspiração.
+Raiz antes de vitrine. Verdade acima de pose. Constância no lugar de inspiração.
 
 Seja nas redes quem você já é na vida.
-
-Atendemos na Grande São Paulo.
 ```
