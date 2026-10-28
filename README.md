@@ -27,6 +27,7 @@ Empresários e profissionais especialistas que já faturam acima de R$ 30 mil/m�
 | [`docs/capitulos/`](docs/capitulos/) | Um arquivo por capítulo: objetivo, perguntas de condução, campos do Brandbook, exemplo e cuidados |
 | [`templates/ficha-do-cliente.md`](templates/ficha-do-cliente.md) | Ficha que é preenchida para cada cliente e alimenta o Brandbook |
 | [`brand/meov/`](brand/meov/) | Identidade visual e posicionamento da própria Meov |
+| [`propostas/`](propostas/) | Modelo de proposta comercial de marca pessoal |
 
 ## Caso-exemplo
 
