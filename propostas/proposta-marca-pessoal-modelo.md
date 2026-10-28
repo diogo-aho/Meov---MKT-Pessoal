@@ -23,14 +23,15 @@ Esta proposta tem duas partes:
 
 ## Parte 1 · Implantação
 
-| # | Entrega | O que inclui | Investimento |
-|---|---|---|---|
-| 1 | **Método Meov** | Diagnóstico da sua presença digital atual e de como você é percebido · imersão presencial de posicionamento · Brandbook completo (propósito, valores, história, público, diferenciação, tom de voz, identidade visual, territórios de conteúdo) · plano de 6 meses · leitura das regras do seu conselho profissional e alinhamento com o compliance ou a comunicação da sua empresa, quando houver | R$ 2.000 |
-| 2 | **Ensaio de marca** | 1 sessão de fotos com direção de imagem · 12 fotos tratadas | R$ 2.000 |
-| 3 | **Reformulação do Instagram** | Conta de criador, com categoria e botões de contato · nome, @ e bio · link na bio · destaques e capas · 3 posts fixados · templates de carrossel e de capa de reels · arquivamento de posts que não combinam com o novo posicionamento · segurança da conta (verificação em duas etapas e acesso da Meov pelo Meta Business Suite, sem compartilhar senha) | R$ 1.000 |
-| 4 | **Reformulação do LinkedIn** | Headline · Sobre · experiências escritas como conquistas · banner · URL personalizada · seção "Em destaque" · competências · modo criador · mensagem pronta para você pedir recomendações a clientes e colegas | R$ 1.000 |
-| 5 | **Site/LP** | Página única com sua apresentação, história, como você ajuda, provas, chamada para o WhatsApp e links para todas as suas redes e páginas | R$ 2.000 |
-| | **Total da implantação** | | **R$ 8.000** |
+| # | Entrega | O que inclui |
+|---|---|---|
+| 1 | **Método Meov** | Diagnóstico da sua presença digital atual e de como você é percebido · imersão presencial de posicionamento · Brandbook completo (propósito, valores, história, público, diferenciação, tom de voz, identidade visual, territórios de conteúdo) · plano de 6 meses · leitura das regras do seu conselho profissional e alinhamento com o compliance ou a comunicação da sua empresa, quando houver |
+| 2 | **Ensaio de marca** | 1 sessão de fotos com direção de imagem · 12 fotos tratadas |
+| 3 | **Reformulação do Instagram** | Conta de criador, com categoria e botões de contato · nome, @ e bio · link na bio · destaques e capas · 3 posts fixados · templates de carrossel e de capa de reels · arquivamento de posts que não combinam com o novo posicionamento · segurança da conta (verificação em duas etapas e acesso da Meov pelo Meta Business Suite, sem compartilhar senha) |
+| 4 | **Reformulação do LinkedIn** | Headline · Sobre · experiências escritas como conquistas · banner · URL personalizada · seção "Em destaque" · competências · modo criador |
+| 5 | **Site/LP** | Página única com sua apresentação, história, como você ajuda, provas, chamada para o WhatsApp e links para todas as suas redes e páginas |
+
+**Investimento total da implantação: R$ 9.000**
 
 Também inclui:
 - Fluxo de aprovação de conteúdos combinado entre você e a Meov.
@@ -42,7 +43,7 @@ Também inclui:
 
 | Entrega | Mínimo por mês |
 |---|---|
-| Gravação semanal (meio período) | 4 encontros |
+| Gravação quinzenal (meio período) | 2 encontros |
 | Reels editados (cortes, legendas e trilha) | 12 |
 | Carrosséis (texto e design) | 8 |
 | Posts de texto no LinkedIn, escritos a partir das suas gravações | 4 |
@@ -51,7 +52,9 @@ Também inclui:
 | Relatório e reunião mensal | ✓ |
 | Revisões de rota no 3º e no 6º mês | ✓ |
 
-**Investimento mensal:** R$ [VALOR MENSAL]
+**Investimento mensal:** R$ 10.000
+
+**Condição especial de boas-vindas:** nos 3 primeiros meses, a gravação é **semanal** (4 encontros por mês), sem custo adicional.
 
 As quantidades são **mínimos por mês**. Assim feriados e semanas de agenda difícil não comprometem o volume.
 
@@ -63,13 +66,13 @@ As quantidades são **mínimos por mês**. Assim feriados e semanas de agenda di
 
 | Mês | Mensalidade | Parcela da implantação | Total do mês |
 |---|---|---|---|
-| 1 | R$ [VALOR MENSAL] | R$ 2.666,67 | R$ [VALOR MENSAL + 2.666,67] |
-| 2 | R$ [VALOR MENSAL] | R$ 2.666,67 | R$ [VALOR MENSAL + 2.666,67] |
-| 3 | R$ [VALOR MENSAL] | R$ 2.666,66 | R$ [VALOR MENSAL + 2.666,66] |
-| 4 a 6 | R$ [VALOR MENSAL] | — | R$ [VALOR MENSAL] |
+| 1 | R$ 10.000 | R$ 3.000 | R$ 13.000 |
+| 2 | R$ 10.000 | R$ 3.000 | R$ 13.000 |
+| 3 | R$ 10.000 | R$ 3.000 | R$ 13.000 |
+| 4 a 6 | R$ 10.000 | — | R$ 10.000 |
+| **Total do ciclo** | **R$ 60.000** | **R$ 9.000** | **R$ 69.000** |
 
 - **Período mínimo:** 6 meses, o ciclo completo do Método Meov.
-- **Cancelamento antes dos 6 meses:** aviso com 15 dias de antecedência e multa de 30% sobre as mensalidades restantes.
 
 ---
 
@@ -117,7 +120,6 @@ As quantidades são **mínimos por mês**. Assim feriados e semanas de agenda di
 
 - **Revisões:** até 2 rodadas de ajustes por conteúdo.
 - **Saldo do mês:** gravações e conteúdos não realizados no mês não se acumulam para os meses seguintes.
-- **Arquivos brutos:** entregues ao cliente.
 - **Portfólio:** a Meov pode usar os trabalhos no próprio portfólio, salvo pedido de sigilo.
 
 ---
