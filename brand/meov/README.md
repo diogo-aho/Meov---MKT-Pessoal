@@ -2,12 +2,15 @@
 
 Materiais de identidade visual da Meov.
 
-A identidade foi criada em 2023 (`apresentacao/meov-identidade-visual-r02.pdf`, KM Designer · 48 páginas). Logotipo, símbolo e pattern continuam valendo. **Paleta e tipografia foram atualizadas** e estão descritas abaixo.
+A referência oficial é a **apresentação de identidade de marca 2026**, criada pela própria Meov: `apresentacao/meov-identidade-de-marca-2026.pdf` (22 slides; `.pptx` editável ao lado). Ela cobre posicionamento, serviços, tom de voz, cores, tipografia, construção do logotipo e do símbolo, versões e universo visual.
+
+- Para regerar: `apresentacao/gerador/` (`malhas.py` desenha as malhas de construção a partir dos SVGs; `build-identidade.js` monta a apresentação).
+- A identidade anterior, de 2023, fica em `apresentacao/meov-identidade-visual-2023.pdf`. Logotipo, símbolo e pattern vêm dela; paleta, tipografia, voz e serviços foram atualizados.
 
 ```
 brand/meov/
 ├── posicionamento.md   posicionamento atual da Meov
-├── apresentacao/   apresentação completa da identidade visual (PDF)
+├── apresentacao/   apresentação de identidade 2026 (PDF + PPTX), gerador e a versão de 2023
 ├── logo/
 │   ├── simbolo/    o "M" da Meov, na paleta atual
 │   ├── logotipo/   a palavra "meov", na paleta atual
