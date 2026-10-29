@@ -97,6 +97,8 @@ As duas fontes são gratuitas no Google Fonts.
 
 SVGs na paleta atual. As versões **com fundo** têm 91,44 × 91,44 mm, como os originais. As versões **sem fundo** são recortadas no desenho, para aplicar sobre fotos, vídeos e peças.
 
+Visão geral de todas as versões: `logo/meov-logos-visao-geral.png`.
+
 Combinações recomendadas: preto musgo sobre fundos claros, branco mineral ou verde vibrante sobre fundos escuros, e o par rosa + verde como destaque. Evite verde vibrante sobre fundos claros, porque o contraste é baixo.
 
 ### Símbolo (`logo/simbolo/`)
