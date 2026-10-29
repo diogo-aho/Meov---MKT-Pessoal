@@ -4,7 +4,29 @@
 - `fernando-lohmann/`: apresentação enviada ao Fernando Lohmann (`.pptx` editável e `.pdf` para envio).
 - `gerador/build-proposta.js`: script que gera a apresentação (pptxgenjs) a partir dos materiais de `brand/meov/`.
 
-> A apresentação usa a fonte **Chillax**. Para editar o `.pptx` com a aparência correta, instale a Chillax (gratuita na Fontshare). Para enviar ao cliente, prefira o **PDF**, que já leva a fonte embutida.
+- `visual/`: referências visuais das propostas (paleta base e guia de tipografia).
+
+## Visual das propostas
+
+As propostas usam a paleta da Aho, com o verde folha trocado pelo rosa da Meov, e a tipografia da Aho. Os logos, o símbolo e a onda continuam os da Meov.
+
+| Cor | HEX | Uso |
+|---|---|---|
+| Branco mineral | `#FAF8F4` | 50% · fundo principal |
+| Pedra líquen | `#D8DACD` | 30% · cartões e superfícies |
+| Preto musgo | `#1C211E` | 9% · textos e slides de elegância |
+| Cinza ardósia verde | `#59625A` | 8% · textos de apoio |
+| Rosa choque (Meov) | `#FF19B1` | 2% · destaques |
+| Verde vibrante | `#DBFF00` | 1% · destaques sobre escuro |
+
+| Fonte | Uso |
+|---|---|
+| **Manrope** (Light 300 nos títulos, Regular 400 nos textos) | Títulos e textos |
+| **Geist Mono** (Regular 400, maiúsculas) | Rótulos, números de página e dados |
+
+Regras: títulos leves e curtos, dois pesos por peça, mono só para dados e rótulos.
+
+> As duas fontes são gratuitas no Google Fonts. Para editar o `.pptx` com a aparência correta, instale-as. Para enviar ao cliente, prefira o **PDF**, que já leva as fontes embutidas.
 
 ## Antes de montar cada nova proposta, perguntar
 
