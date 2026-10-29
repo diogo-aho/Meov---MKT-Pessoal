@@ -2,7 +2,7 @@
 
 Materiais de identidade visual da Meov.
 
-A referência oficial é a **apresentação de identidade de marca 2026**: `apresentacao/meov-identidade-de-marca-2026.pdf` (57 slides; `.pptx` editável ao lado). Ela segue a estrutura da apresentação original: estratégia (posicionamento, serviços, público, princípios e tom de voz), cores e texturas, tipografia, logotipo e símbolo com malhas e conceito, resultado e o universo visual completo com as aplicações em objetos reais.
+A referência oficial é a **apresentação de identidade de marca 2026**: `apresentacao/apresentacao-branding-meov-r04-2026.pdf` (57 slides; `.pptx` editável ao lado). Ela segue a estrutura da apresentação original: estratégia (posicionamento, serviços, público, princípios e tom de voz), cores e texturas, tipografia, logotipo e símbolo com malhas e conceito, resultado e o universo visual completo com as aplicações em objetos reais.
 
 - Para regerar: `apresentacao/gerador/`. `atualizar_aplicacoes.py` atualiza os mockups de 2023 (troca @meovelab, "experiências audiovisuais", "produtora de vídeos" e afins, sem distorcer as imagens); `malhas.py` desenha as malhas de construção; `build-identidade.js` monta a apresentação.
 - A identidade anterior, de 2023, fica em `apresentacao/meov-identidade-visual-2023.pdf`. Logotipo, símbolo e pattern vêm dela; paleta, tipografia, voz e serviços foram atualizados.
