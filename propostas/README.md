@@ -1,7 +1,7 @@
 # Propostas
 
 - `proposta-marca-pessoal-modelo.md`: texto base da proposta, com as condições do primeiro cliente.
-- `fernando-lohmann/`: apresentação enviada ao Fernando Lohmann (`.pptx` editável e `.pdf` para envio) e as imagens usadas (prints dos perfis, fotos).
+- `fernando-lohmann/`: apresentação enviada ao Fernando Lohmann (`.pptx` editável e `.pdf` para envio) e as imagens usadas (prints dos perfis, fotos). A versão atual é a **R03** (`meov-proposta-fernando-lohmann-R03`).
 - `gerador/build-proposta.js`: script que gera a apresentação (pptxgenjs) a partir dos materiais de `brand/meov/`.
 
 
@@ -26,6 +26,14 @@ As propostas seguem a paleta e a tipografia atuais da Meov, descritas em [`brand
 Regras: títulos leves e curtos, dois pesos por peça, mono só para dados e rótulos.
 
 > As duas fontes são gratuitas no Google Fonts. Para editar o `.pptx` com a aparência correta, instale-as. Para enviar ao cliente, prefira o **PDF**, que já leva as fontes embutidas.
+
+### Ajuste de cores da proposta do Fernando (R03)
+
+Só nesta proposta, enquanto a paleta geral não é revisada:
+- fundos: pedra líquen na maioria dos slides; o restante dividido entre branco mineral e preto musgo;
+- rosa só em detalhes estratégicos (ponto do rótulo, barra da presença digital, camada Confiança, valor final, onda do "depois");
+- verde um pouco mais presente que o rosa; ícones em círculo musgo com traço verde;
+- molduras das fotos em branco mineral.
 
 ## Antes de montar cada nova proposta, perguntar
 
