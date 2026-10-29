@@ -58,18 +58,18 @@ brand/meov/
 
 ## Paleta de cores (`paleta/`)
 
-Paleta atual, com a proporção de uso de cada cor. A marca Meov é a soma do **rosa** e do **verde** sobre o branco e os tons de cinza, então os dois aparecem na mesma medida.
+Paleta atual, com a proporção de uso de cada cor (revisada em outubro de 2026). A base é feita de branco, pedra e musgo; o **verde** é o destaque de apoio e o **rosa** aparece só em detalhes estratégicos.
 
 | Nome | HEX | Proporção | Uso |
 |---|---|---|---|
-| Branco mineral | `#FAF8F4` | 50% | fundo principal |
-| Pedra líquen | `#D8DACD` | 30% | cartões e superfícies |
-| Preto musgo | `#1C211E` | 9% | textos e peças de elegância |
-| Cinza ardósia verde | `#59625A` | 8% | textos de apoio |
-| Rosa choque | `#FF19B1` | 1,5% | destaque, em par com o verde |
-| Verde vibrante | `#DBFF00` | 1,5% | destaque, em par com o rosa |
+| Branco mineral | `#FAF8F4` | 34% | fundo de slides e peças com imagens e prints |
+| Pedra líquen | `#D8DACD` | 32% | fundo principal, cartões e superfícies |
+| Preto musgo | `#1C211E` | 27% | textos, fundos de elegância e capas |
+| Cinza ardósia verde | `#59625A` | 6% | textos de apoio e linhas |
+| Verde vibrante | `#DBFF00` | 0,8% | destaque de apoio: ícones, um cartão ou faixa por peça |
+| Rosa choque | `#FF19B1` | 0,2% | só detalhes estratégicos: o ponto que guia o olhar, o número que importa |
 
-Referência visual: `paleta/meov-paleta-atual.png`. A paleta parte da base da Aho, com o verde folha trocado pelo rosa da Meov.
+Referência visual: `paleta/meov-paleta-atual.png` (gerada por `paleta/gerador/paleta.py`, com Manrope e Geist Mono instaladas). A faixa fina na base da imagem mostra a proporção real. A paleta parte da base da Aho, com o verde folha trocado pelo rosa da Meov.
 
 **Paleta da identidade de 2023 (anterior):** preto uva passa `#202020`, verde vibrante `#DBFF00`, rosa choque `#FF19B1`, azul fluorescente `#31F8FF`, cinza tempestade `#4F5F66` e branco `#FFFFFF`. Referência: `paleta/meov-paleta-2023.png`. O pattern, as texturas e os logos em `logo/2023/` ainda usam essas cores.
 
@@ -102,7 +102,7 @@ SVGs na paleta atual. As versões **com fundo** têm 91,44 × 91,44 mm, como os 
 
 Visão geral de todas as versões: `logo/meov-logos-visao-geral.png`.
 
-Combinações recomendadas: preto musgo sobre fundos claros, branco mineral ou verde vibrante sobre fundos escuros, e o par rosa + verde como destaque. Evite verde vibrante sobre fundos claros, porque o contraste é baixo.
+Combinações recomendadas: preto musgo sobre fundos claros, branco mineral ou verde vibrante sobre fundos escuros; rosa só como detalhe. Evite verde vibrante sobre fundos claros, porque o contraste é baixo.
 
 ### Símbolo (`logo/simbolo/`)
 

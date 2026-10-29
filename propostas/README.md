@@ -11,12 +11,12 @@ As propostas seguem a paleta e a tipografia atuais da Meov, descritas em [`brand
 
 | Cor | HEX | Uso |
 |---|---|---|
-| Branco mineral | `#FAF8F4` | 50% · fundo principal |
-| Pedra líquen | `#D8DACD` | 30% · cartões e superfícies |
-| Preto musgo | `#1C211E` | 9% · textos e slides de elegância |
-| Cinza ardósia verde | `#59625A` | 8% · textos de apoio |
-| Rosa choque | `#FF19B1` | destaque, na mesma medida que o verde |
-| Verde vibrante | `#DBFF00` | destaque, na mesma medida que o rosa |
+| Branco mineral | `#FAF8F4` | 34% · fundo de slides com prints e imagens |
+| Pedra líquen | `#D8DACD` | 32% · fundo principal, cartões e superfícies |
+| Preto musgo | `#1C211E` | 27% · textos, capas e slides de elegância |
+| Cinza ardósia verde | `#59625A` | 6% · textos de apoio e linhas |
+| Verde vibrante | `#DBFF00` | 0,8% · destaque de apoio |
+| Rosa choque | `#FF19B1` | 0,2% · só detalhes estratégicos |
 
 | Fonte | Uso |
 |---|---|
@@ -27,13 +27,7 @@ Regras: títulos leves e curtos, dois pesos por peça, mono só para dados e ró
 
 > As duas fontes são gratuitas no Google Fonts. Para editar o `.pptx` com a aparência correta, instale-as. Para enviar ao cliente, prefira o **PDF**, que já leva as fontes embutidas.
 
-### Ajuste de cores da proposta do Fernando (R03)
-
-Só nesta proposta, enquanto a paleta geral não é revisada:
-- fundos: pedra líquen na maioria dos slides; o restante dividido entre branco mineral e preto musgo;
-- rosa só em detalhes estratégicos (ponto do rótulo, barra da presença digital, camada Confiança, valor final, onda do "depois");
-- verde um pouco mais presente que o rosa; ícones em círculo musgo com traço verde;
-- molduras das fotos em branco mineral.
+A proposta do Fernando (R03) foi a primeira com essa proporção: rosa no ponto dos rótulos, na barra da presença digital, na camada Confiança, no valor final e na onda do "depois"; ícones em círculo musgo com traço verde; molduras das fotos em branco mineral.
 
 ## Antes de montar cada nova proposta, perguntar
 
