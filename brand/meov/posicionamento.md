@@ -28,7 +28,8 @@ Empresários e profissionais especialistas que já faturam acima de R$ 30 mil/m�
 
 | Fica | Muda |
 |---|---|
-| Toda a identidade visual: cores, Chillax, logotipo, símbolo, pattern, texturas | O foco deixa de ser o filme e passa a ser **a pessoa** |
+| Logotipo, símbolo e pattern | O foco deixa de ser o filme e passa a ser **a pessoa** |
+| A dupla rosa + verde vibrante | Paleta mais clara (branco mineral, pedra líquen, preto musgo, ardósia) e tipografia Manrope + Geist Mono, no lugar da Chillax |
 | O fino trato audiovisual como assinatura | O audiovisual vira uma das três frentes, junto com estratégia e gestão das redes |
 | A ideia de conexão e de experiências que tocam | A conexão agora é entre o especialista e a tribo dele |
 

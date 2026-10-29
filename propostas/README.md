@@ -4,11 +4,10 @@
 - `fernando-lohmann/`: apresentação enviada ao Fernando Lohmann (`.pptx` editável e `.pdf` para envio) e as imagens usadas (prints dos perfis, fotos).
 - `gerador/build-proposta.js`: script que gera a apresentação (pptxgenjs) a partir dos materiais de `brand/meov/`.
 
-- `visual/`: referências visuais das propostas (paleta base e guia de tipografia).
 
 ## Visual das propostas
 
-As propostas usam a paleta da Aho, com o verde folha trocado pelo rosa da Meov, e a tipografia da Aho. Os logos, o símbolo e a onda continuam os da Meov.
+As propostas seguem a paleta e a tipografia atuais da Meov, descritas em [`brand/meov/`](../brand/meov/README.md).
 
 | Cor | HEX | Uso |
 |---|---|---|
@@ -16,8 +15,8 @@ As propostas usam a paleta da Aho, com o verde folha trocado pelo rosa da Meov, 
 | Pedra líquen | `#D8DACD` | 30% · cartões e superfícies |
 | Preto musgo | `#1C211E` | 9% · textos e slides de elegância |
 | Cinza ardósia verde | `#59625A` | 8% · textos de apoio |
-| Rosa choque (Meov) | `#FF19B1` | 2% · destaques |
-| Verde vibrante | `#DBFF00` | 1% · destaques sobre escuro |
+| Rosa choque | `#FF19B1` | destaque, na mesma medida que o verde |
+| Verde vibrante | `#DBFF00` | destaque, na mesma medida que o rosa |
 
 | Fonte | Uso |
 |---|---|

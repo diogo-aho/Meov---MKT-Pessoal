@@ -2,7 +2,7 @@
 
 Materiais de identidade visual da Meov.
 
-A referência oficial é a apresentação completa da identidade: `apresentacao/meov-identidade-visual-r02.pdf` (KM Designer, 2023 · Estratégia & Identidade Visual · 48 páginas).
+A identidade foi criada em 2023 (`apresentacao/meov-identidade-visual-r02.pdf`, KM Designer · 48 páginas). Logotipo, símbolo e pattern continuam valendo. **Paleta e tipografia foram atualizadas** e estão descritas abaixo.
 
 ```
 brand/meov/
@@ -13,8 +13,8 @@ brand/meov/
 │   └── logotipo/   a palavra "meov" completa
 ├── pattern/        grafismo de ondas
 ├── texturas/       fundos com degradê e granulado
-├── tipografia/     fonte oficial
-└── paleta/         paleta oficial de cores
+├── tipografia/     Manrope + Geist Mono (guia em PDF)
+└── paleta/         paleta atual e paleta de 2023
 ```
 
 ## Resumo da apresentação
@@ -54,30 +54,43 @@ brand/meov/
 
 ## Paleta de cores (`paleta/`)
 
-| Nome | HEX |
-|---|---|
-| Preto uva passa | `#202020` |
-| Verde vibrante | `#DBFF00` |
-| Rosa choque | `#FF19B1` |
-| Azul fluorescente | `#31F8FF` |
-| Cinza tempestade | `#4F5F66` |
-| Branco | `#FFFFFF` |
+Paleta atual, com a proporção de uso de cada cor. A marca Meov é a soma do **rosa** e do **verde** sobre o branco e os tons de cinza, então os dois aparecem na mesma medida.
 
-Referência visual: `paleta/meov-paleta-de-cores.png`.
+| Nome | HEX | Proporção | Uso |
+|---|---|---|---|
+| Branco mineral | `#FAF8F4` | 50% | fundo principal |
+| Pedra líquen | `#D8DACD` | 30% | cartões e superfícies |
+| Preto musgo | `#1C211E` | 9% | textos e peças de elegância |
+| Cinza ardósia verde | `#59625A` | 8% | textos de apoio |
+| Rosa choque | `#FF19B1` | destaque | par com o verde |
+| Verde vibrante | `#DBFF00` | destaque | par com o rosa |
 
-> Alguns arquivos de logo usam preto puro (`#000000`), que não está na paleta oficial.
+Referência visual: `paleta/meov-paleta-atual.png` (base da paleta da Aho, com o verde folha trocado pelo rosa da Meov).
+
+**Paleta da identidade de 2023 (anterior):** preto uva passa `#202020`, verde vibrante `#DBFF00`, rosa choque `#FF19B1`, azul fluorescente `#31F8FF`, cinza tempestade `#4F5F66` e branco `#FFFFFF`. Referência: `paleta/meov-paleta-2023.png`. Os arquivos de logo, pattern e texturas ainda usam essas cores e o preto puro `#000000`.
 
 ## Tipografia (`tipografia/`)
 
-| Uso | Fonte |
-|---|---|
-| Textos | **Chillax** |
+Duas famílias, uma voz.
 
-- Designer: Manuel Désormeaux (Indian Type Foundry).
-- Distribuição gratuita pela [Fontshare](https://www.fontshare.com/fonts/chillax), licença ITF Free Font License: uso pessoal e comercial liberado.
-- Pesos: Extralight, Light, Regular, Medium, Semibold, Bold (também em versão variável).
-- Uso na web: `https://api.fontshare.com/v2/css?f[]=chillax@400,500,600,700&display=swap`
-- Referência visual: `tipografia/meov-tipografia-chillax.png`.
+| Fonte | Uso | Pesos |
+|---|---|---|
+| **Manrope** | títulos e textos | Light 300 nos títulos · Regular 400 nos textos (também Medium 500 e SemiBold 600) |
+| **Geist Mono** | dados e rótulos: números, valores, datas, @, sites e selos, em maiúsculas | Regular 400 |
+
+**Regras de uso**
+1. Títulos leves: Light 300 em títulos grandes. O destaque vem do espaço, não do negrito.
+2. Letras próximas: −0,02 a −0,03 em nos títulos; texto com espaçamento normal.
+3. Mono só para dados e rótulos, nunca em frases.
+4. Dois pesos por peça (ex.: 300 no título e 400 no texto).
+5. Cor do texto: preto musgo no principal, ardósia no apoio, branco sobre escuro.
+6. Frases serenas: títulos curtos e calmos.
+
+As duas fontes são gratuitas no Google Fonts.
+- Web: `https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Geist+Mono:wght@400&display=swap`
+- Referência completa: `tipografia/meov-guia-tipografia.pdf` (escala, regras e aplicações).
+
+**Tipografia da identidade de 2023 (anterior):** Chillax (Fontshare). Referência: `tipografia/meov-tipografia-chillax-2023.png`. O logotipo "meov" é desenhado e não depende de fonte.
 
 ## Logo (`logo/`)
 
