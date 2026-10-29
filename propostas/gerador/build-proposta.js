@@ -60,8 +60,8 @@ if (T_IMPL.pc !== 12000 || T_MENS.pc !== 12000 || CYCLE.es !== 45000) throw new 
 
 (async () => {
   const LOGO = {
-    musgo: await svgArt("logo/logotipo/meov-logotipo-lima-fundo-grafite.svg", HEX.musgo),
-    mineral: await svgArt("logo/logotipo/meov-logotipo-lima-fundo-grafite.svg", HEX.mineral),
+    musgo: await svgArt("logo/logotipo/meov-logotipo-musgo-sem-fundo.svg", HEX.musgo),
+    mineral: await svgArt("logo/logotipo/meov-logotipo-mineral-sem-fundo.svg", HEX.mineral),
   };
 
   const pres = new pptxgen();

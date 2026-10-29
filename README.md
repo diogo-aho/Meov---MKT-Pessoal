@@ -10,7 +10,7 @@ Base de conhecimento do **Método Meov: da Raiz à Voz**, a metodologia que a Me
 - **Audiovisual:** direção de imagem, foto e vídeo, dia de gravação semanal, quinzenal ou mensal, e edição.
 - **Gestão das redes:** Instagram, LinkedIn e Site/LP, com calendário, roteiros, legendas, design, publicação e relatórios.
 
-Instagram: [@meov.creators](https://www.instagram.com/meov.creators/)
+Instagram: [@meov.mp](https://www.instagram.com/meov.mp/)
 
 ## Para quem é
 

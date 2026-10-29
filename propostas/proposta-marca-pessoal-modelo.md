@@ -1,7 +1,7 @@
 # Proposta · Marca Pessoal
 
 **Para:** Fernando Lohmann
-**De:** Meov · [@meov.creators](https://www.instagram.com/meov.creators/) · meov.com.br
+**De:** Meov · [@meov.mp](https://www.instagram.com/meov.mp/) · meov.com.br
 **Data:** [DATA]
 
 > Seja nas redes quem você já é na vida.

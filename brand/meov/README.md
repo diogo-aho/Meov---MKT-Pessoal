@@ -9,8 +9,9 @@ brand/meov/
 ├── posicionamento.md   posicionamento atual da Meov
 ├── apresentacao/   apresentação completa da identidade visual (PDF)
 ├── logo/
-│   ├── simbolo/    o "M" da Meov
-│   └── logotipo/   a palavra "meov" completa
+│   ├── simbolo/    o "M" da Meov, na paleta atual
+│   ├── logotipo/   a palavra "meov", na paleta atual
+│   └── 2023/       arquivos originais nas cores de 2023
 ├── pattern/        grafismo de ondas
 ├── texturas/       fundos com degradê e granulado
 ├── tipografia/     Manrope + Geist Mono (guia em PDF)
@@ -50,7 +51,7 @@ brand/meov/
 - O "®" acompanha o logotipo e o símbolo.
 
 > A apresentação posiciona a Meov como **produtora de vídeos**. Esse posicionamento foi atualizado: ver [`posicionamento.md`](posicionamento.md).
-> O Instagram oficial é **@meov.creators** (os mockups mostram `meovelab` e `meovlab`, que não valem mais).
+> O Instagram oficial é **@meov.mp** (os mockups mostram `meovelab` e `meovlab`, que não valem mais).
 
 ## Paleta de cores (`paleta/`)
 
@@ -67,7 +68,7 @@ Paleta atual, com a proporção de uso de cada cor. A marca Meov é a soma do **
 
 Referência visual: `paleta/meov-paleta-atual.png` (base da paleta da Aho, com o verde folha trocado pelo rosa da Meov).
 
-**Paleta da identidade de 2023 (anterior):** preto uva passa `#202020`, verde vibrante `#DBFF00`, rosa choque `#FF19B1`, azul fluorescente `#31F8FF`, cinza tempestade `#4F5F66` e branco `#FFFFFF`. Referência: `paleta/meov-paleta-2023.png`. Os arquivos de logo, pattern e texturas ainda usam essas cores e o preto puro `#000000`.
+**Paleta da identidade de 2023 (anterior):** preto uva passa `#202020`, verde vibrante `#DBFF00`, rosa choque `#FF19B1`, azul fluorescente `#31F8FF`, cinza tempestade `#4F5F66` e branco `#FFFFFF`. Referência: `paleta/meov-paleta-2023.png`. O pattern, as texturas e os logos em `logo/2023/` ainda usam essas cores.
 
 ## Tipografia (`tipografia/`)
 
@@ -94,29 +95,49 @@ As duas fontes são gratuitas no Google Fonts.
 
 ## Logo (`logo/`)
 
-Arquivos SVG originais (CorelDRAW 2020), 91,44 × 91,44 mm, com fundo aplicado.
+SVGs na paleta atual. As versões **com fundo** têm 91,44 × 91,44 mm, como os originais. As versões **sem fundo** são recortadas no desenho, para aplicar sobre fotos, vídeos e peças.
+
+Combinações recomendadas: preto musgo sobre fundos claros, branco mineral ou verde vibrante sobre fundos escuros, e o par rosa + verde como destaque. Evite verde vibrante sobre fundos claros, porque o contraste é baixo.
 
 ### Símbolo (`logo/simbolo/`)
 
-| Arquivo | Cor do símbolo | Fundo |
+| Arquivo | Cor | Fundo |
 |---|---|---|
-| `meov-simbolo-lima-fundo-grafite.svg` | Verde vibrante | Preto uva passa |
-| `meov-simbolo-branco-fundo-grafite.svg` | Branco | Preto uva passa |
-| `meov-simbolo-magenta-fundo-grafite.svg` | Rosa choque | Preto uva passa |
-| `meov-simbolo-ciano-fundo-grafite.svg` | Azul fluorescente | Preto uva passa |
-| `meov-simbolo-branco-fundo-preto.svg` | Branco | Preto `#000000` |
-| `meov-simbolo-preto-fundo-branco.svg` | Preto `#000000` | Branco |
+| `meov-simbolo-musgo-fundo-mineral.svg` | Preto musgo | Branco mineral |
+| `meov-simbolo-rosa-fundo-mineral.svg` | Rosa choque | Branco mineral |
+| `meov-simbolo-musgo-fundo-pedra.svg` | Preto musgo | Pedra líquen |
+| `meov-simbolo-mineral-fundo-musgo.svg` | Branco mineral | Preto musgo |
+| `meov-simbolo-verde-fundo-musgo.svg` | Verde vibrante | Preto musgo |
+| `meov-simbolo-rosa-fundo-musgo.svg` | Rosa choque | Preto musgo |
+| `meov-simbolo-musgo-fundo-verde.svg` | Preto musgo | Verde vibrante |
+| `meov-simbolo-musgo-fundo-rosa.svg` | Preto musgo | Rosa choque |
+| `meov-simbolo-mineral-fundo-ardosia.svg` | Branco mineral | Cinza ardósia verde |
+| `meov-simbolo-musgo-sem-fundo.svg` | Preto musgo | sem fundo (transparente) |
+| `meov-simbolo-mineral-sem-fundo.svg` | Branco mineral | sem fundo (transparente) |
+| `meov-simbolo-rosa-sem-fundo.svg` | Rosa choque | sem fundo (transparente) |
+| `meov-simbolo-verde-sem-fundo.svg` | Verde vibrante | sem fundo (transparente) |
 
 ### Logotipo (`logo/logotipo/`)
 
-| Arquivo | Cor do logotipo | Fundo |
+| Arquivo | Cor | Fundo |
 |---|---|---|
-| `meov-logotipo-lima-fundo-grafite.svg` | Verde vibrante | Preto uva passa |
-| `meov-logotipo-branco-fundo-grafite.svg` | Branco | Preto uva passa |
-| `meov-logotipo-magenta-fundo-grafite.svg` | Rosa choque | Preto uva passa |
-| `meov-logotipo-ciano-fundo-grafite.svg` | Azul fluorescente | Preto uva passa |
-| `meov-logotipo-branco-fundo-preto.svg` | Branco | Preto `#000000` |
-| `meov-logotipo-preto-fundo-branco.svg` | Preto `#000000` | Branco |
+| `meov-logotipo-musgo-fundo-mineral.svg` | Preto musgo | Branco mineral |
+| `meov-logotipo-rosa-fundo-mineral.svg` | Rosa choque | Branco mineral |
+| `meov-logotipo-musgo-fundo-pedra.svg` | Preto musgo | Pedra líquen |
+| `meov-logotipo-mineral-fundo-musgo.svg` | Branco mineral | Preto musgo |
+| `meov-logotipo-verde-fundo-musgo.svg` | Verde vibrante | Preto musgo |
+| `meov-logotipo-rosa-fundo-musgo.svg` | Rosa choque | Preto musgo |
+| `meov-logotipo-musgo-fundo-verde.svg` | Preto musgo | Verde vibrante |
+| `meov-logotipo-musgo-fundo-rosa.svg` | Preto musgo | Rosa choque |
+| `meov-logotipo-mineral-fundo-ardosia.svg` | Branco mineral | Cinza ardósia verde |
+| `meov-logotipo-musgo-sem-fundo.svg` | Preto musgo | sem fundo (transparente) |
+| `meov-logotipo-mineral-sem-fundo.svg` | Branco mineral | sem fundo (transparente) |
+| `meov-logotipo-rosa-sem-fundo.svg` | Rosa choque | sem fundo (transparente) |
+| `meov-logotipo-verde-sem-fundo.svg` | Verde vibrante | sem fundo (transparente) |
+
+### Versões de 2023 (`logo/2023/`)
+
+Os arquivos originais da identidade de 2023 (CorelDRAW), nas cores antigas: verde vibrante, branco, rosa e azul fluorescente sobre preto uva passa, e as versões em preto e branco puros.
 
 ## Pattern (`pattern/`)
 

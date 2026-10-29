@@ -46,12 +46,12 @@ Empresários e profissionais especialistas que já faturam acima de R$ 30 mil/m�
 
 | Canal | Endereço | Status |
 |---|---|---|
-| Instagram | [@meov.creators](https://www.instagram.com/meov.creators/) | Confirmado |
+| Instagram | [@meov.mp](https://www.instagram.com/meov.mp/) | Confirmado |
 | Site | meov.com.br | Confirmado |
 
 ## Bios
 
-### Instagram · @meov.creators
+### Instagram · @meov.mp
 
 | Campo | Conteúdo |
 |---|---|
