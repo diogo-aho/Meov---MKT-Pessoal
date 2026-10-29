@@ -63,10 +63,10 @@ Paleta atual, com a proporção de uso de cada cor. A marca Meov é a soma do **
 | Pedra líquen | `#D8DACD` | 30% | cartões e superfícies |
 | Preto musgo | `#1C211E` | 9% | textos e peças de elegância |
 | Cinza ardósia verde | `#59625A` | 8% | textos de apoio |
-| Rosa choque | `#FF19B1` | destaque | par com o verde |
-| Verde vibrante | `#DBFF00` | destaque | par com o rosa |
+| Rosa choque | `#FF19B1` | 1,5% | destaque, em par com o verde |
+| Verde vibrante | `#DBFF00` | 1,5% | destaque, em par com o rosa |
 
-Referência visual: `paleta/meov-paleta-atual.png` (base da paleta da Aho, com o verde folha trocado pelo rosa da Meov).
+Referência visual: `paleta/meov-paleta-atual.png`. A paleta parte da base da Aho, com o verde folha trocado pelo rosa da Meov.
 
 **Paleta da identidade de 2023 (anterior):** preto uva passa `#202020`, verde vibrante `#DBFF00`, rosa choque `#FF19B1`, azul fluorescente `#31F8FF`, cinza tempestade `#4F5F66` e branco `#FFFFFF`. Referência: `paleta/meov-paleta-2023.png`. O pattern, as texturas e os logos em `logo/2023/` ainda usam essas cores.
 
