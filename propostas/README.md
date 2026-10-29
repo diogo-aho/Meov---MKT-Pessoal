@@ -1,7 +1,7 @@
 # Propostas
 
 - `proposta-marca-pessoal-modelo.md`: texto base da proposta, com as condições do primeiro cliente.
-- `fernando-lohmann/`: apresentação enviada ao Fernando Lohmann (`.pptx` editável e `.pdf` para envio).
+- `fernando-lohmann/`: apresentação enviada ao Fernando Lohmann (`.pptx` editável e `.pdf` para envio) e as imagens usadas (prints dos perfis, fotos).
 - `gerador/build-proposta.js`: script que gera a apresentação (pptxgenjs) a partir dos materiais de `brand/meov/`.
 
 - `visual/`: referências visuais das propostas (paleta base e guia de tipografia).
@@ -47,6 +47,8 @@ As condições abaixo foram definidas só para o primeiro cliente. Em toda nova 
 | Cliente | Fernando Lohmann |
 | Implantação | R$ 12.000, dividida nas 3 primeiras mensalidades (R$ 4.000/mês) |
 | Mensalidade | R$ 12.000 |
+| Ancoragem na apresentação | avulso R$ 112.000 → pacote R$ 84.000 → condição especial Fernando R$ 45.000 (implantação R$ 6.600 em 3x de R$ 2.200 + R$ 6.400/mês) |
+| Linha editorial inicial | Vlogcast, escolhido pelo estilo de comunicação do Fernando |
 | Gravação | Quinzenal; semanal nos 3 primeiros meses como bônus |
 | Mínimos por mês | 12 reels, 8 carrosséis, 4 posts de texto no LinkedIn |
 | Fidelidade | 6 meses |
