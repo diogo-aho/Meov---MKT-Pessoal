@@ -74,6 +74,36 @@ async function icon(name, color, size = 256) {
   };
 
 
+  // modelo de apresentação: 12 páginas em miniatura, no estilo e na paleta atuais
+  async function modeloApresentacao() {
+    const s = slide("Livre", "Universo visual");
+    s.background = { color: HEX.musgo };
+    const gap = 0.22, tw = (CW - 3 * gap) / 4, th = tw * 9 / 16;
+    const y0 = (SH - (3 * th + 2 * gap)) / 2;
+    const k = tw / SW; // escala da miniatura
+    const pages = [
+      { bg: HEX.musgo, f: (x, y) => { img(s, LG.mineral, x + 0.22, y + th / 2 - 0.25, 1.1, "m1 logo"); T(s, "APRESENTAÇÃO · 2026", { x: x + 0.22, y: y + th - 0.32, w: 2, h: 0.15, fontFace: MONO, fontSize: 5, charSpacing: 1, color: HEX.pedra }, "m1 rótulo"); } },
+      { bg: HEX.pedra, f: (x, y) => { T(s, "POSICIONAMENTO", { x: x + 0.2, y: y + 0.2, w: 2, h: 0.15, fontFace: MONO, fontSize: 5, charSpacing: 1, color: HEX.ardosia }, "m2 rótulo"); T(s, "Não somos uma agência de marketing.", { x: x + 0.2, y: y + 0.45, w: tw - 0.5, h: 0.6, fontFace: LIGHT, fontSize: 12, color: HEX.musgo, valign: "top" }, "m2 frase"); } },
+      { bg: HEX.mineral, f: (x, y) => { T(s, "Sua voz,\nno ritmo certo.", { x: x + 0.2, y: y + th - 0.75, w: tw - 0.4, h: 0.55, fontFace: LIGHT, fontSize: 12, color: HEX.musgo, valign: "bottom" }, "m3 frase"); dot(s, x + tw - 0.3, y + 0.2, 0.08, HEX.rosa, "m3 ponto"); } },
+      { bg: HEX.pedra, f: (x, y) => { ["01", "02", "03"].forEach((n, i) => T(s, n, { x: x + 0.2 + i * 0.8, y: y + 0.3, w: 0.7, h: 0.4, fontFace: LIGHT, fontSize: 16, color: HEX.musgo }, `m4 ${n}`)); T(s, "ESTRATÉGIA · AUDIOVISUAL · REDES", { x: x + 0.2, y: y + th - 0.35, w: tw - 0.4, h: 0.15, fontFace: MONO, fontSize: 5, charSpacing: 0.5, color: HEX.ardosia }, "m4 rótulo"); } },
+      { bg: HEX.musgo, f: (x, y) => { T(s, "Raiz antes de vitrine.", { x: x + 0.2, y: y + 0.3, w: tw - 0.4, h: 0.5, fontFace: LIGHT, fontSize: 12, color: HEX.mineral, valign: "top" }, "m5 frase"); rect(s, x + 0.2, y + th - 0.3, 0.4, 0.03, HEX.verde, "m5 linha"); } },
+      { bg: HEX.mineral, f: (x, y) => { T(s, "PALETA", { x: x + 0.2, y: y + 0.2, w: 2, h: 0.15, fontFace: MONO, fontSize: 5, charSpacing: 1, color: HEX.ardosia }, "m6 rótulo"); let xx = x + 0.2; const bw = tw - 0.4; [[HEX.mineral, 34], [HEX.pedra, 32], [HEX.musgo, 27], [HEX.ardosia, 6], [HEX.verde, 0.8], [HEX.rosa, 0.2]].forEach(([c, p], i) => { const w = Math.max(bw * p / 100, 0.03); s.addShape(pres.shapes.RECTANGLE, on({ x: xx, y: y + th - 0.55, w, h: 0.32, fill: { color: c }, line: { color: i === 0 ? HEX.pedra : c, width: 0.5 } }, `m6 cor ${i + 1}`)); xx += w; }); } },
+      { bg: HEX.pedra, f: (x, y) => { const h = 0.42; imgH(s, SY.musgo, x + (tw - h * SY.musgo.ratio) / 2, y + (th - h) / 2, h, "m7 símbolo"); } },
+      { bg: HEX.mineral, f: (x, y) => { T(s, "Leve. Divertido.\nDo seu jeito.", { x: x + 0.2, y: y + 0.3, w: tw - 0.4, h: 0.6, fontFace: LIGHT, fontSize: 12, color: HEX.musgo, valign: "top" }, "m8 frase"); } },
+      { bg: HEX.musgo, f: (x, y) => { T(s, [{ text: "Você já tem a voz.", options: { color: HEX.mineral, breakLine: true } }, { text: "A gente ajuda a colocá-la no mundo.", options: { color: HEX.verde, fontSize: 8 } }], { x: x + 0.2, y: y + 0.3, w: tw - 0.4, h: 0.7, fontFace: LIGHT, fontSize: 12, valign: "top" }, "m9 frase"); } },
+      { bg: HEX.pedra, f: (x, y) => { T(s, "6 MESES", { x: x + 0.2, y: y + 0.3, w: tw - 0.4, h: 0.4, fontFace: MONO, fontSize: 16, color: HEX.musgo }, "m10 número"); T(s, "um ciclo para a sua voz ganhar ritmo", { x: x + 0.2, y: y + th - 0.4, w: tw - 0.4, h: 0.2, fontSize: 6, color: HEX.ardosia }, "m10 texto"); } },
+      { bg: HEX.verde, f: (x, y) => { T(s, "Seja nas redes quem você já é na vida.", { x: x + 0.2, y: y + th - 0.75, w: tw - 0.4, h: 0.55, fontFace: LIGHT, fontSize: 12, color: HEX.musgo, valign: "bottom" }, "m11 frase"); } },
+      { bg: HEX.musgo, f: (x, y) => { T(s, "obrigado.", { x, y: y + th / 2 - 0.2, w: tw, h: 0.3, fontFace: LIGHT, fontSize: 11, color: HEX.mineral, align: "center" }, "m12 frase"); T(s, "MARCA PESSOAL", { x, y: y + th / 2 + 0.12, w: tw, h: 0.15, fontFace: MONO, fontSize: 5, charSpacing: 1.5, color: HEX.pedra, align: "center" }, "m12 rótulo"); dot(s, x + tw / 2 - 0.035, y + th / 2 - 0.38, 0.07, HEX.rosa, "m12 ponto"); } },
+    ];
+    pages.forEach((pg, i) => {
+      const x = MX + (i % 4) * (tw + gap), y = y0 + Math.floor(i / 4) * (th + gap);
+      s.addShape(pres.shapes.RECTANGLE, on({ x, y, w: tw, h: th, fill: { color: pg.bg }, line: { color: HEX.ardosia, width: 0.5 } }, `Página ${i + 1}`));
+      pg.f(x, y);
+      if (i !== 6 && i !== 0) imgH(s, pg.bg === HEX.musgo ? SY.mineral : SY.musgo, x + tw - 0.12 - 0.07 * SY.musgo.ratio, y + th - 0.17, 0.07, `Página ${i + 1} símbolo`);
+    });
+    void k;
+  }
+
   const full = (sec, file, name, alt) => { const s = slide("Livre", sec); s.addImage(on({ path: path.join(IMG, file), x: 0, y: 0, w: SW, h: SH, altText: alt || name }, name)); return s; };
   const quote = (sec, t) => { const s = slide("Marca", sec); T(s, `"${t}"`, { x: 0, y: SH / 2 - 0.5, w: SW, h: 1.0, fontFace: LIGHT, fontSize: 40, charSpacing: -0.8, color: C.text1, align: "center", valign: "middle" }, "Título"); return s; };
   const bigTitle = (sec, t, sub) => { const s = slide("Marca", sec); T(s, t, { x: MX, y: 5.1, w: 10, h: 1.1, fontFace: LIGHT, fontSize: 54, charSpacing: -1.2, color: C.text1 }, "Título"); if (sub) T(s, sub, { x: MX, y: 6.2, w: 10, h: 0.4, fontSize: 15, color: C.text2 }, "Subtítulo"); return s; };
@@ -159,12 +189,12 @@ async function icon(name, color, size = 256) {
   {
     const s = slide("Livre", "Identidade visual");
     const blocks = [
-      { n: "Branco mineral", h: "#FAF8F4", p: "50%", x: 0, y: 0, w: 8.33, hh: 4.2, f: HEX.mineral, t: HEX.musgo },
-      { n: "Pedra líquen", h: "#D8DACD", p: "30%", x: 8.33, y: 0, w: 5.0, hh: 4.2, f: HEX.pedra, t: HEX.musgo },
-      { n: "Preto musgo", h: "#1C211E", p: "9%", x: 0, y: 4.2, w: 4.4, hh: 3.3, f: HEX.musgo, t: HEX.mineral },
-      { n: "Cinza ardósia verde", h: "#59625A", p: "8%", x: 4.4, y: 4.2, w: 4.0, hh: 3.3, f: HEX.ardosia, t: HEX.mineral },
-      { n: "Rosa choque", h: "#FF19B1", p: "1,5%", x: 8.4, y: 4.2, w: 2.47, hh: 3.3, f: HEX.rosa, t: HEX.mineral },
-      { n: "Verde vibrante", h: "#DBFF00", p: "1,5%", x: 10.87, y: 4.2, w: 2.47, hh: 3.3, f: HEX.verde, t: HEX.musgo },
+      { n: "Branco mineral", h: "#FAF8F4", p: "34%", x: 0, y: 0, w: 6.87, hh: 4.2, f: HEX.mineral, t: HEX.musgo },
+      { n: "Pedra líquen", h: "#D8DACD", p: "32%", x: 6.87, y: 0, w: 6.463, hh: 4.2, f: HEX.pedra, t: HEX.musgo },
+      { n: "Preto musgo", h: "#1C211E", p: "27%", x: 0, y: 4.2, w: 5.2, hh: 3.3, f: HEX.musgo, t: HEX.mineral },
+      { n: "Cinza ardósia verde", h: "#59625A", p: "6%", x: 5.2, y: 4.2, w: 3.4, hh: 3.3, f: HEX.ardosia, t: HEX.mineral },
+      { n: "Verde vibrante", h: "#DBFF00", p: "0,8%", x: 8.6, y: 4.2, w: 2.55, hh: 3.3, f: HEX.verde, t: HEX.musgo },
+      { n: "Rosa choque", h: "#FF19B1", p: "0,2%", x: 11.15, y: 4.2, w: 2.183, hh: 3.3, f: HEX.rosa, t: HEX.mineral },
     ];
     blocks.forEach((b, i) => {
       rect(s, b.x, b.y, b.w, b.hh, b.f, `Cor ${i + 1}`);
@@ -174,7 +204,6 @@ async function icon(name, color, size = 256) {
     });
   }
   full("Identidade visual", "aplicacoes/pagina-06.jpg", "Textura 1", "Textura Meov: degradê com granulado");
-  full("Identidade visual", "aplicacoes/pagina-07.jpg", "Textura 2", "Textura Meov: degradê com onda");
   {
     const s = slide("Escuro", "Identidade visual");
     s.background = { path: path.join(IMG, "aplicacoes", "pagina-06.jpg") };
@@ -183,8 +212,8 @@ async function icon(name, color, size = 256) {
     const why = [
       { c: [HEX.mineral, HEX.pedra], n: "Branco mineral e pedra líquen", d: "A base clara e calma, que dá espaço para a pessoa aparecer." },
       { c: [HEX.musgo, HEX.ardosia], n: "Preto musgo e ardósia", d: "Profundidade e elegância, nos textos e nas texturas." },
-      { c: [HEX.rosa], n: "Rosa choque", d: "A emoção: o coração que pulsa no símbolo." },
       { c: [HEX.verde], n: "Verde vibrante", d: "A energia do movimento e da constância." },
+      { c: [HEX.rosa], n: "Rosa choque", d: "A emoção e o acolhimento: o coração que pulsa no símbolo." },
     ];
     why.forEach((w, i) => {
       const y = 2.3 + i * 1.0;
@@ -192,20 +221,20 @@ async function icon(name, color, size = 256) {
       T(s, w.n, { x: MX + 1.35, y: y - 0.02, w: 5.6, h: 0.36, fontSize: 17, color: C.background1 }, `Porquê ${i + 1} nome`);
       T(s, w.d, { x: MX + 1.35, y: y + 0.35, w: 5.6, h: 0.5, fontSize: 13, color: C.background2, valign: "top" }, `Porquê ${i + 1} texto`);
     });
-    dot(s, 8.6, 2.6, 1.5, C.accent1, "Círculo rosa");
+    dot(s, 8.6, 2.6, 1.5, C.accent2, "Círculo verde");
     T(s, "+", { x: 10.15, y: 2.95, w: 0.6, h: 0.8, fontFace: LIGHT, fontSize: 40, color: C.background1, align: "center" }, "Mais");
-    dot(s, 10.8, 2.6, 1.5, C.accent2, "Círculo verde");
+    dot(s, 10.85, 3.0, 0.7, C.accent1, "Círculo rosa");
     T(s, "A Meov é a soma dos dois.", { x: 8.6, y: 4.45, w: 4.0, h: 0.5, fontFace: LIGHT, fontSize: 22, color: C.background1 }, "Soma");
-    T(s, "Rosa e verde sempre em par, na mesma medida, sobre o branco e os tons de cinza.", { x: 8.6, y: 5.0, w: 4.0, h: 0.9, fontSize: 13, color: C.background2, valign: "top" }, "Soma texto");
+    T(s, "O verde dá energia e ritmo. O rosa aparece só no detalhe que acolhe e emociona, sobre o branco e os tons de cinza.", { x: 8.6, y: 5.0, w: 4.0, h: 0.9, fontSize: 13, color: C.background2, valign: "top" }, "Soma texto");
   }
   quote("Identidade visual", "Tipografia");
   {
     const s = slide("Livre", "Identidade visual");
     s.background = { color: HEX.musgo };
-    T(s, "Textos", { x: 0, y: 1.55, w: SW, h: 0.6, fontFace: LIGHT, fontSize: 26, color: C.accent2, align: "center" }, "Rótulo");
-    T(s, [{ text: "Manrope", options: { fontFace: "Manrope" } }, { text: " + ", options: { fontFace: LIGHT } }, { text: "Geist Mono", options: { fontFace: MONO } }], { x: 0, y: 2.2, w: SW, h: 1.1, fontSize: 52, color: C.accent2, align: "center" }, "Fontes");
-    T(s, "ABCD abcd", { x: 0, y: 3.4, w: SW, h: 1.1, fontFace: LIGHT, fontSize: 60, color: C.accent2, align: "center" }, "Alfabeto");
-    T(s, "01234@#$%&", { x: 0, y: 4.6, w: SW, h: 1.1, fontFace: MONO, fontSize: 56, color: C.accent2, align: "center" }, "Números");
+    T(s, "TEXTOS", { x: 0, y: 2.0, w: SW, h: 0.35, fontFace: MONO, fontSize: 11, charSpacing: 3, color: C.background2, align: "center" }, "Rótulo");
+    T(s, [{ text: "Manrope", options: { fontFace: "Manrope" } }, { text: " + ", options: { fontFace: LIGHT } }, { text: "Geist Mono", options: { fontFace: MONO } }], { x: 0, y: 2.55, w: SW, h: 0.8, fontSize: 34, color: C.accent2, align: "center" }, "Fontes");
+    T(s, "ABCD abcd", { x: 0, y: 3.45, w: SW, h: 0.8, fontFace: LIGHT, fontSize: 38, color: C.background1, align: "center" }, "Alfabeto");
+    T(s, "01234@#$%&", { x: 0, y: 4.3, w: SW, h: 0.8, fontFace: MONO, fontSize: 32, color: C.background2, align: "center" }, "Números");
   }
   {
     const s = slide("Claro", "Identidade visual");
@@ -214,15 +243,15 @@ async function icon(name, color, size = 256) {
     const w = (CW - 0.3) / 2;
     box(s, MX, 2.2, w, 4.4, C.background2, "Cartão Manrope");
     label(s, "títulos e textos", MX + 0.45, 2.55, 5, C.text2, "Rótulo Manrope");
-    T(s, "Aa", { x: MX + 0.45, y: 2.9, w: 3, h: 1.5, fontFace: LIGHT, fontSize: 96, color: C.text1 }, "Aa Manrope");
-    T(s, "Manrope", { x: MX + 0.45, y: 4.45, w: 5, h: 0.6, fontFace: LIGHT, fontSize: 30, color: C.text1 }, "Nome Manrope");
+    T(s, "Aa", { x: MX + 0.45, y: 2.9, w: 3, h: 1.5, fontFace: LIGHT, fontSize: 80, color: C.text1 }, "Aa Manrope");
+    T(s, "Manrope", { x: MX + 0.45, y: 4.45, w: 5, h: 0.6, fontFace: LIGHT, fontSize: 26, color: C.text1 }, "Nome Manrope");
     T(s, "Acolhedora e moderna. Leve nos títulos, porque o destaque vem do espaço, não do negrito.", { x: MX + 0.45, y: 5.1, w: w - 0.9, h: 0.8, ...body({ fontSize: 13, color: C.text1 }) }, "Porquê Manrope");
     T(s, "LIGHT 300 · REGULAR 400 · MEDIUM 500 · SEMIBOLD 600", { x: MX + 0.45, y: 6.15, w: w - 0.9, h: 0.26, fontFace: MONO, fontSize: 9, charSpacing: 1, color: C.text2 }, "Pesos Manrope");
     const x2 = MX + w + 0.3;
     box(s, x2, 2.2, w, 4.4, C.text1, "Cartão Geist");
     label(s, "dados e rótulos", x2 + 0.45, 2.55, 5, C.accent2, "Rótulo Geist");
-    T(s, "Aa", { x: x2 + 0.45, y: 2.9, w: 3, h: 1.5, fontFace: MONO, fontSize: 88, color: C.background1 }, "Aa Geist");
-    T(s, "Geist Mono", { x: x2 + 0.45, y: 4.45, w: 5, h: 0.6, fontFace: MONO, fontSize: 28, color: C.background1 }, "Nome Geist");
+    T(s, "Aa", { x: x2 + 0.45, y: 2.9, w: 3, h: 1.5, fontFace: MONO, fontSize: 72, color: C.background1 }, "Aa Geist");
+    T(s, "Geist Mono", { x: x2 + 0.45, y: 4.45, w: 5, h: 0.6, fontFace: MONO, fontSize: 24, color: C.background1 }, "Nome Geist");
     T(s, "Precisa e técnica. Só em números, valores, datas, @, sites e selos.", { x: x2 + 0.45, y: 5.1, w: w - 0.9, h: 0.8, fontSize: 13, color: C.background2, valign: "top", lineSpacingMultiple: 1.15 }, "Porquê Geist");
     T(s, "REGULAR 400", { x: x2 + 0.45, y: 6.15, w: w - 0.9, h: 0.26, fontFace: MONO, fontSize: 9, charSpacing: 1, color: C.background2 }, "Pesos Geist");
   }
@@ -248,13 +277,6 @@ async function icon(name, color, size = 256) {
 
   // ================= Resultado
   quote("Identidade visual", "Resultado");
-  full("Identidade visual", "aplicacoes/pagina-16.jpg", "Logotipo sobre textura", "Logotipo verde sobre a textura Meov");
-  full("Identidade visual", "aplicacoes/pagina-17.jpg", "Logotipo com onda", "Logotipo branco sobre a onda rosa");
-  for (const [bg, nm] of [[HEX.musgo, "musgo"], [HEX.ardosia, "ardósia"]]) {
-    const s = slide("Livre", "Identidade visual");
-    s.background = { color: bg };
-    img(s, LG.mineral, SW / 2 - 1.6, SH / 2 - 1.6 / LG.mineral.ratio, 3.2, `Logotipo sobre ${nm}`);
-  }
   {
     const s = slide("Livre", "Identidade visual");
     s.background = { color: HEX.musgo };
@@ -268,41 +290,60 @@ async function icon(name, color, size = 256) {
     T(s, "25%", { x: x0 + lw + 1.4, y: y0 + sh + 0.5, w: sw, h: 0.3, fontFace: MONO, fontSize: 10, color: C.background2, align: "center" }, "Medida símbolo");
   }
 
+  // grades de variações: logotipo (100%) e símbolo (25%)
+  const TEX = path.join(IMG, "aplicacoes", "pagina-06.jpg");
+  const combos = [
+    [HEX.musgo, "mineral"], [HEX.musgo, "verde"], [HEX.musgo, "rosa"], ["tex", "mineral"],
+    [HEX.pedra, "musgo"], [HEX.mineral, "musgo"], [HEX.mineral, "rosa"], [HEX.ardosia, "mineral"],
+    [HEX.verde, "musgo"], [HEX.rosa, "musgo"], [HEX.ardosia, "verde"], ["tex", "verde"],
+  ];
+  for (const g of [{ set: LG, k: 0.68, n: "logotipo", m: "100%" }, { set: SY, k: 0.42, n: "símbolo", m: "25%" }]) {
+    const s = slide("Livre", "Identidade visual");
+    s.background = { color: HEX.pedra };
+    const q = 2.25, gap = 0.1, gw = 4 * q + 3 * gap, gh = 3 * q + 2 * gap;
+    const gx = SW - (SH - gh) / 2 - gw, gy = (SH - gh) / 2;
+    label(s, "variações", MX, 0.95, 3, C.text2, "Rótulo");
+    T(s, g.n[0].toUpperCase() + g.n.slice(1), { x: MX, y: 1.3, w: 2.6, h: 0.6, fontFace: LIGHT, fontSize: 30, charSpacing: -0.6, color: C.text1 }, "Título");
+    T(s, g.m, { x: MX, y: 1.95, w: 2.6, h: 0.4, fontFace: MONO, fontSize: 14, color: C.text1 }, "Medida");
+    T(s, "Sobre os fundos da paleta e a textura Meov. Verde e rosa como cor da marca ou do fundo, sempre com contraste.", { x: MX, y: 5.4, w: 2.4, h: 1.3, fontSize: 11, color: C.text2, valign: "bottom", lineSpacingMultiple: 1.15 }, "Nota");
+    combos.forEach(([bg, c], i) => {
+      const x = gx + (i % 4) * (q + gap), y = gy + Math.floor(i / 4) * (q + gap);
+      if (bg === "tex") s.addImage(on({ path: TEX, x, y, w: q, h: q, sizing: { type: "cover", w: q, h: q } }, `Fundo ${i + 1}`));
+      else if (bg === HEX.pedra) s.addShape(pres.shapes.RECTANGLE, on({ x, y, w: q, h: q, fill: { color: bg }, line: { color: HEX.ardosia, width: 0.5 } }, `Fundo ${i + 1}`));
+      else rect(s, x, y, q, q, bg, `Fundo ${i + 1}`);
+      const art = g.set[c], w = q * g.k;
+      img(s, art, x + (q - w) / 2, y + (q - w / art.ratio) / 2, w, `${g.n} ${i + 1}`);
+    });
+  }
+
+  full("Identidade visual", "aplicacoes/pagina-16.jpg", "Logotipo sobre textura", "Logotipo verde sobre a textura Meov");
+  full("Identidade visual", "aplicacoes/pagina-17.jpg", "Logotipo com onda", "Logotipo branco sobre a onda rosa");
   // ================= Universo visual
   pres.addSection({ title: "Universo visual" });
   quote("Universo visual", "Universo Visual");
-  const alts = { 22: "Perfil do Instagram @meov.mp", 23: "Stories", 24: "Navegador com meov.com.br", 25: "Site no notebook", 26: "Página do LinkedIn", 27: "Página do LinkedIn", 28: "Cartaz", 29: "Fita com o pattern", 30: "Papelaria", 31: "Cartões de visita", 32: "Proposta no tablet", 33: "Slides de proposta", 34: "Ecobag verde", 35: "Ecobag rosa", 36: "Mídia indoor", 37: "Moletom, costas", 38: "Moletom, frente", 39: "Gorro com símbolo", 40: "Gorro com pattern", 41: "Boné", 42: "Óculos", 43: "Garrafa", 44: "Camiseta verde", 45: "Camisetas ardósia", 46: "Camisetas verdes", 47: "Camisetas rosa" };
-  for (let p = 22; p <= 47; p++) {
-    full("Universo visual", `aplicacoes/pagina-${p}.jpg`, `Aplicação ${p}`, alts[p]);
-    if (p === 33) {
-      const s = slide("Escuro", "Universo visual");
-      s.addText("propostas".toUpperCase(), { placeholder: "kicker" });
-      s.addText("A identidade em uma proposta real.", { placeholder: "title" });
-      const th = ["p-01.png", "p-03.png", "p-09.png", "p-13.png"];
-      const tw = (CW - 0.3) / 2, thh = tw * 9 / 16;
-      const sc = Math.min(1, (SH - 2.4 - 0.75 - 0.25) / (2 * thh));
-      th.forEach((f, i) => {
-        const w = tw * sc, h = thh * sc;
-        const x = (SW - (2 * w + 0.3)) / 2 + (i % 2) * (w + 0.3), y = 2.3 + Math.floor(i / 2) * (h + 0.25);
-        s.addImage(on({ path: path.join(IMG, f), x, y, w, h, altText: "Slide da proposta Fernando Lohmann" }, `Proposta ${i + 1}`));
-      });
-    }
-  }
+  const alts = { 22: "Perfil do Instagram @meov.mp", 23: "Stories", 24: "Navegador com meov.com.br", 27: "Página do LinkedIn", 30: "Papelaria", 31: "Cartões de visita", 32: "Proposta no tablet", 36: "Mídia indoor", 38: "Moletom", 41: "Boné", 43: "Garrafa" };
+  const app = (p) => full("Universo visual", `aplicacoes/pagina-${p}.jpg`, `Aplicação ${p}`, alts[p]);
+  [22, 23, 24].forEach(app);
+  full("Universo visual", "aplicacoes/notebook.jpg", "Site no notebook", "Site meov.com.br no notebook");
+  full("Universo visual", "aplicacoes/linkedin.jpg", "LinkedIn", "Página do LinkedIn com banner da voz ganhando o mundo");
+  [27, 30, 31, 32].forEach(app);
+  await modeloApresentacao();
+  app(36);
+  if (fs.existsSync(path.join(IMG, "aplicacoes", "estudio.jpg"))) full("Universo visual", "aplicacoes/estudio.jpg", "Estúdio Meov", "Gravação no estúdio Meov: entrevista, diretor e filmmaker");
+  [38, 41, 43].forEach(app);
 
   // ================= Obrigado
   pres.addSection({ title: "Encerramento" });
   {
     const s = slide("Livre", "Encerramento");
-    s.background = { color: HEX.pedra };
-    imgH(s, SY.musgo, MX, 0.7, 0.32, "Símbolo");
-    const d = 2.5, x = SW / 2 - d / 2, y = 1.15;
-    ring(s, x, y, d, "Anel");
-    s.addImage(on({ path: path.join(IMG, "diogo-rafa-sq.png"), x: x + 0.15, y: y + 0.15, w: d - 0.3, h: d - 0.3, rounding: true, altText: "Diogo e Rafael, da Meov" }, "Foto Diogo e Rafael"));
-    T(s, '"Obrigado"', { x: 0, y: 4.0, w: SW, h: 0.9, fontFace: LIGHT, fontSize: 40, color: C.text2, align: "center", valign: "middle" }, "Obrigado");
-    T(s, "Diogo & Rafael  |  Meov Marca Pessoal", { x: 0, y: 4.9, w: SW, h: 0.4, fontSize: 15, color: C.text1, align: "center" }, "Assinatura");
-    T(s, "meov.com.br\n@meov.mp", { x: MX, y: 6.5, w: 4, h: 0.55, fontSize: 12, color: C.text1 }, "Contatos");
-    T(s, "2026", { x: SW / 2 - 1, y: 6.75, w: 2, h: 0.3, fontSize: 12, color: C.text1, align: "center" }, "Ano");
-    T(s, "Sua voz, no ritmo certo.", { x: SW - MX - 4, y: 6.75, w: 4, h: 0.3, fontSize: 12, color: C.text1, align: "right" }, "Assinatura final");
+    s.background = { color: HEX.musgo };
+    const lw = 5.4, lh = lw / LG.mineral.ratio, ly = 2.2;
+    img(s, LG.mineral, (SW - lw) / 2, ly, lw, "Logotipo");
+    T(s, "Seja nas redes quem você já é na vida. Obrigado por chegar até aqui.", { x: 0, y: ly + lh + 0.65, w: SW, h: 0.4, fontFace: LIGHT, fontSize: 16, color: C.background2, align: "center" }, "Frase");
+    rect(s, SW / 2 - 0.3, ly + lh + 1.35, 0.6, 0.025, HEX.verde, "Linha verde");
+    T(s, "MARCA PESSOAL", { x: 0, y: ly + lh + 1.5, w: SW, h: 0.3, fontFace: MONO, fontSize: 11, charSpacing: 4, color: C.background1, align: "center" }, "Marca pessoal");
+    dot(s, SW / 2 - 0.04, ly + lh + 1.95, 0.08, C.accent1, "Ponto rosa");
+    T(s, "meov.com.br  ·  @meov.mp", { x: 0, y: 6.75, w: SW, h: 0.3, fontFace: MONO, fontSize: 9, charSpacing: 1, color: C.text2, align: "center" }, "Contatos");
   }
 
   await pres.writeFile({ fileName: OUT });
